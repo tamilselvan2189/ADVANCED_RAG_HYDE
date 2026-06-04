@@ -1,0 +1,17 @@
+llm:
+  provider: "openai"            # options: openai | gemini
+  model_openai: "gpt-4o-mini"
+  model_gemini: "gemini-2.5-flash"
+  temperature: 0.3
+  max_tokens: 1000
+
+embedding:
+  openai_model: "text-embedding-3-small"      # dim = 1536
+  gemini_model: "models/text-embedding-004"   # dim = 768
+
+vectordb:
+  faiss_openai: "./data/embeddings/faiss_openai"
+  faiss_gemini: "./data/embeddings/faiss_gemini"
+
+retrieval:
+  top_k: 5

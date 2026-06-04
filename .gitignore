@@ -1,0 +1,19 @@
+# Env / secrets
+.env
+.env.*
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Vector store artifacts (regenerable)
+data/embeddings/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# OS
+.DS_Store

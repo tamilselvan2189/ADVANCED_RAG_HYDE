@@ -1,0 +1,33 @@
+# Core
+python-dotenv
+PyYAML
+tqdm
+
+# LangChain
+langchain
+langchain-core
+langchain-community
+langchain-openai
+langchain-google-genai
+langchain-text-splitters
+
+# LLM SDKs
+openai
+google-generativeai
+
+# Vector DB
+faiss-cpu
+
+# PDF support
+pypdf
+
+# Embeddings (optional, only if you use HuggingFace models)
+sentence-transformers
+torch
+transformers
+
+# Utilities
+requests
+numpy
+pandas
+httpx
